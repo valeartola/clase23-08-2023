@@ -1,0 +1,12 @@
+[run]
+source =
+    app
+    tests 
+omit =
+    env/*
+    */tests*
+    */__init__.py
+[report]
+excluide lines = 
+    def test
+    if __name__ == "__main__":
